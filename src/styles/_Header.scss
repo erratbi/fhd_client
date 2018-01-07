@@ -1,0 +1,14 @@
+
+#header {
+    li.nav-item {
+        a.nav-link {
+            font-size: 12px;
+            transition: color .4s ease-out;
+        }
+        &.active {
+            a {
+                color: $primary;
+            }
+        }
+    }
+}
